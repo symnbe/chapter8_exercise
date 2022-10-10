@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.container{
+    width: 960px;
+    margin:50px auto;
+}
+
+.main-visual-box{
+  padding:20px;
+}
+
+.main-visual-box:nth-child(odd){
+  background-color:#eee;
+}
+
+.main{
+  display: flex;
+  flex-wrap:wrap;
+  gap:40px 5%
+}
+
+.box{
+  width: 30%;
+  height:200px;
+  background-color: yellow;
+}
+
+.box:first-child,
+.box:nth-child(5),
+.box:nth-child(9){
+  background:orange;
+}
